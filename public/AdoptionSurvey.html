@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <meta charset="UTF-8">
+     <title>Registration Form</title>
+     <link rel="stylesheet" href="styles.css">
+     
+  </head>
+ <body>
+<h1 id="title"> Adopt A Dog.com Survey Form</h1>
+<p id="description">Please complete the following satisfaction survey</p>
+<form id="survey-form" class="form">
+  <fieldset>
+    <label id="name-label" for="name">Full Name<input placeholder="John Doe" id="name" type="text" name="fullname" required /></label>
+    <label id="email-label" for="email" >E-mail Address<input placeholder="johndoe123@examplemail.com" id="email" type="email" name="email_address" required /></label>
+    <label id="number-label" for="number" >Reference No.<input placeholder="6 digit no. #470032" id="number" type="number" min="100000" max="999999" name="ref_no" required /></label>
+
+  </fieldset>
+<fieldset>
+  <label>
+    Where did you hear about us?       <select name="hear_about" id="dropdown">
+<option value="">
+(choose a option)
+</option>
+<option value="1">
+  social media
+</option>
+<option value="2">
+  other
+</option>
+    </select>
+  </label>
+  <label id="satisfaction">
+    Satisfaction with adoption process:
+    
+  </label>
+   <fieldset id="radioappeal" class="radioappeal"> <label for="very-unsatisfied"> <input type="radio" class="inline" id="very-unsatisfied" name="appeal" value="1">Very Unsatisfied </label>
+        <label for="unsatisfied"><input type="radio" class="inline" id="unsatisfied" name="appeal" value="2" >Unsatisfied </label>
+            <label for="neutral">  <input type="radio" class="inline" id="neutral" name="appeal" value="3" checked>Neutral </label>
+                <label for="satisfied"> <input type="radio" class="inline" id="satisfied" name="appeal" value="4" >Satisfied </label>
+                 <label for="very-satisfied"> <input type="radio" class="inline" id="very-satisfied" name="appeal" value="5" >Very Satisfied </label>
+</fieldset>
+
+</fieldset>
+<fieldset>
+<label ><input id="check1" type="checkbox" class="inline" value="get_reminders" name="reminders"/>Recieve reminders for vacination <label>
+<label ><input id="check2" type="checkbox" class="inline" value="get_manual" name="care_manual"/>Recieve care manual<label>
+<label id="newsletter"><input id="check3" type="checkbox" class="inline" value="Recieve_news" name="newsletter"/>Join our newsletter<label>
+
+  <textarea id="optionalText" name="extra_comments"></textarea>
+  <input id="submit" type="submit"/>
+</fieldset>
+
+
+
+</form>
+<script type="text/javascript" src="fetchscript.js">
+  
+  //script for a fetch funtion to post the data to localhost:3000/user
+  
+</script>
+</body>
+</html>

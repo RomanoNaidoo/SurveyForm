@@ -1,0 +1,28 @@
+h1,p{font:sans;
+    text-align:center;}
+    fieldset{border:none;border-bottom:2px solid;
+    border-color:rgb(230, 197, 107);}
+    label,input {display:block;
+    margin:10px 0 0 0;}  
+    
+    input{width:100%;
+    background-color: rgb(247, 209, 160);}
+    
+    .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;}
+      .inline{
+      display: inline;}
+      .radioappeal{border:1.5px solid;
+      width:200px;
+      height:150px;}
+      label[id="newsletter"]{
+      width:150px;
+      margin:auto;
+      font-size:1em;
+      color:black;
+      padding-top:1em;}
+form{background-image:url(job562-nunoon-04-a.jpg);
+background-size: 50% 100%;
+background-blend-mode: lighten;}
