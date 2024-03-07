@@ -1,2 +1,3 @@
-This is a basic survey form, hosted on localhost.
-Saves submitted data to mysql database
+This is a basic survey form, hosted on localhost (by node.js).
+Posts submitted data to mysql
+Which is saved to the database
